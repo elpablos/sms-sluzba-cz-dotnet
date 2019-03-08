@@ -13,7 +13,7 @@ namespace sms_sluzba_cz.sms_gate
     /// </summary>
     public class SmsGateConfirmer
     {
-        internal const string ApiXml20ConfirmUrl = "https://smsgateapi.sluzba.cz/apixml20/confirm?login=[login]&password=[password]&id=[id]&type=[type]";
+        internal const string ApiXml20ConfirmUrl = "https://smsgateapi.sms-sluzba.cz/apixml20/confirm?login=[login]&password=[password]&id=[id]&type=[type]";
 
         /// <summary>
         /// Potvrzeni prijeti prichozi zpravy

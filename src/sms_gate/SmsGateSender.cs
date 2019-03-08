@@ -12,8 +12,8 @@ namespace sms_sluzba_cz.sms_gate
     /// </summary>
     public class SmsGateSender
     {
-        internal const string ApiXml20SenderUrl = "https://smsgateapi.sluzba.cz/apixml20/sender?login=[login]&password=[password]&count=[count]&[query]=1";
-        internal const string ApiXml20SenderDeliveryReportUrl = "https://smsgateapi.sluzba.cz/apixml20/sender?login=[login]&password=[password]&id=[id]&act=get_delivery_report";
+        internal const string ApiXml20SenderUrl = "https://smsgateapi.sms-sluzba.cz/apixml20/sender?login=[login]&password=[password]&count=[count]&[query]=1";
+        internal const string ApiXml20SenderDeliveryReportUrl = "https://smsgateapi.sms-sluzba.cz/apixml20/sender?login=[login]&password=[password]&id=[id]&act=get_delivery_report";
 
         /// <summary>
         /// Stazeni seznamu odeslanych SMS zprav

@@ -13,7 +13,7 @@ namespace sms_sluzba_cz.sms_gate
     /// </summary>
     public class SmsGateReciever
     {
-        internal const string ApiXml20RecieverUrl = "https://smsgateapi.sluzba.cz/apixml20/receiver?login=[login]&password=[password]&affiliate=[affiliate]";
+        internal const string ApiXml20RecieverUrl = "https://smsgateapi.sms-sluzba.cz/apixml20/receiver?login=[login]&password=[password]&affiliate=[affiliate]";
 
         public enum SendSmsResultStatus : int
         {
